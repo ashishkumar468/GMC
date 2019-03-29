@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+  <EditText
+      android:id="@+id/et_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/name"
+      android:drawableLeft="@drawable/ic_name"
+      />
+
+  <EditText
+      android:drawableLeft="@drawable/ic_email"
+      android:id="@+id/et_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/email_address"
+      />
+
+  <EditText
+      android:drawableLeft="@drawable/ic_number"
+      android:id="@+id/et_mobile_number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/mobile_number"
+      />
+
+  <EditText
+      android:drawableLeft="@drawable/ic_password"
+      android:id="@+id/et_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/password"
+      />
+  <EditText
+      android:drawableLeft="@drawable/ic_password"
+      android:id="@+id/et_confirm_password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/confirm_password"
+      />
+
+  <Button
+      android:layout_marginTop="20dp"
+      android:id="@+id/btn_signup"
+      style="@style/ButtonText"
+      android:text="@string/signup"
+      android:textColor="@color/buttonTextColor"
+      android:background="@drawable/button_positive"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+
+</LinearLayout>
